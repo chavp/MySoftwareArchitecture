@@ -1,0 +1,302 @@
+<svg viewBox="0 0 1400 1100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define gradients -->
+  <defs>
+    <radialGradient id="agileGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fff5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffc9c9;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="rolesGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#d0ebff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#74c0fc;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="eventsGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#d0f4de;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#51cf66;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="artifactsGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffe8cc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffa94d;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="1100" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="700" y="45" font-family="Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#212529">
+    Scrum Framework: 3-5-3 Formation
+  </text>
+  <text x="700" y="75" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#495057">
+    🏉 เหมือนทีมรักบี้: 3 ตำแหน่ง • 5 กิจกรรม • 3 ผลลัพธ์
+  </text>
+
+  <!-- Core: Agile Values -->
+  <!-- Layer 4: 3 Artifacts -->
+  <circle cx="350" cy="450" r="245" fill="url(#artifactsGrad)" stroke="#fd7e14" stroke-width="3" opacity="0.8"/>
+  <text x="350" y="230" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#d9480f">
+    3 Artifacts
+  </text>
+  
+  <!-- Layer 3: 5 Events -->
+  <circle cx="350" cy="450" r="190" fill="url(#eventsGrad)" stroke="#2f9e44" stroke-width="3" opacity="0.85"/>
+  <text x="350" y="285" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#2b8a3e">
+    5 Events
+  </text>
+  <text x="350" y="308" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#2b8a3e">
+    กิจกรรม / Ceremonies
+  </text>
+
+  <!-- Layer 2: 3 Roles -->
+  <circle cx="350" cy="450" r="130" fill="url(#rolesGrad)" stroke="#1971c2" stroke-width="3" opacity="0.9"/>
+  <text x="350" y="345" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#1864ab">
+    3 Roles
+  </text>
+  <text x="350" y="368" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#1864ab">
+    บทบาทหลัก
+  </text>
+
+  <circle cx="350" cy="450" r="70" fill="url(#agileGrad)" stroke="#fa5252" stroke-width="3"/>
+  <text x="350" y="440" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#c92a2a">
+    Agile
+  </text>
+  <text x="350" y="460" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#c92a2a">
+    Values &amp;
+  </text>
+  <text x="350" y="478" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#c92a2a">
+    Principles
+  </text>
+  <!-- 3-5-3 Formation Label -->
+  <rect x="250" y="720" width="200" height="60" rx="10" fill="#fff5f5" stroke="#fa5252" stroke-width="3"/>
+  <text x="350" y="745" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#c92a2a">
+    3-5-3 Formation
+  </text>
+  <text x="350" y="768" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#c92a2a">
+    สูตรจำ Scrum ง่ายๆ
+  </text>
+
+  <!-- Arrow pointing to details -->
+  <defs>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#1971c2" />
+    </marker>
+  </defs>
+  <path d="M 550 450 L 670 450" stroke="#495057" stroke-width="3" fill="none" marker-end="url(#arrowBlue)"/>
+  <text x="610" y="440" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#495057">
+    รายละเอียด
+  </text>
+
+  <!-- Details Section -->
+  <!-- 3 Roles Detail -->
+  <g transform="translate(680, 150)">
+    <rect x="0" y="0" width="680" height="180" rx="10" fill="#e7f5ff" stroke="#1971c2" stroke-width="3"/>
+    <text x="340" y="25" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#1864ab">
+      👥 3 Roles (บทบาทหลัก)
+    </text>
+    
+    <!-- Product Owner -->
+    <circle cx="110" cy="90" r="45" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+    <text x="110" y="85" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1864ab">Product</text>
+    <text x="110" y="100" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1864ab">Owner</text>
+    <text x="110" y="150" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#1864ab">ถ่ายทอดวิสัยทัศน์</text>
+    <text x="110" y="165" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#1864ab">จัดลำดับความสำคัญ</text>
+    
+    <!-- Scrum Master -->
+    <circle cx="340" cy="90" r="45" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+    <text x="340" y="85" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1864ab">Scrum</text>
+    <text x="340" y="100" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1864ab">Master</text>
+    <text x="340" y="150" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#1864ab">โค้ช Scrum</text>
+    <text x="340" y="165" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#1864ab">ลบอุปสรรค</text>
+    
+    <!-- Development Team -->
+    <circle cx="570" cy="90" r="45" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+    <text x="570" y="85" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1864ab">Development</text>
+    <text x="570" y="100" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1864ab">Team</text>
+    <text x="570" y="150" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#1864ab">จัดการตัวเอง</text>
+    <text x="570" y="165" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#1864ab">สร้าง Increment</text>
+  </g>
+
+  <!-- 5 Events Detail -->
+  <g transform="translate(680, 350)">
+    <rect x="0" y="0" width="680" height="240" rx="10" fill="#d3f9d8" stroke="#2f9e44" stroke-width="3"/>
+    <text x="340" y="25" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#2b8a3e">
+      📅 5 Events (กิจกรรม)
+    </text>
+    
+    <!-- Sprint Container -->
+    <ellipse cx="340" cy="140" rx="310" ry="90" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2" stroke-dasharray="5,5"/>
+    <text x="340" y="60" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2b8a3e">
+      SPRINT (Time-boxed)
+    </text>
+    
+    <!-- Sprint Planning -->
+    <rect x="30" y="80" width="120" height="50" rx="5" fill="#fff" stroke="#2f9e44" stroke-width="2"/>
+    <text x="90" y="100" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#2b8a3e">Sprint Planning</text>
+    <text x="90" y="115" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2b8a3e">วางแผน Sprint</text>
+    <text x="90" y="127" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#495057">→ Sprint Backlog</text>
+    
+    <!-- Daily Standup -->
+    <rect x="165" y="90" width="100" height="40" rx="5" fill="#fff" stroke="#2f9e44" stroke-width="2"/>
+    <text x="215" y="107" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#2b8a3e">Daily</text>
+    <text x="215" y="122" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2b8a3e">ประจำวัน 15 นาที</text>
+    
+    <!-- Development Work in middle -->
+    <rect x="280" y="100" width="120" height="30" rx="5" fill="#c3fae8" stroke="#0ca678" stroke-width="2"/>
+    <text x="340" y="120" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#087f5b">💻 พัฒนา</text>
+    
+    <!-- Sprint Review -->
+    <rect x="415" y="90" width="100" height="40" rx="5" fill="#fff" stroke="#2f9e44" stroke-width="2"/>
+    <text x="465" y="107" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#2b8a3e">Sprint Review</text>
+    <text x="465" y="122" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2b8a3e">ทบทวนผลงาน</text>
+    
+    <!-- Sprint Retrospective -->
+    <rect x="530" y="80" width="120" height="50" rx="5" fill="#fff" stroke="#2f9e44" stroke-width="2"/>
+    <text x="590" y="97" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#2b8a3e">Sprint</text>
+    <text x="590" y="110" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#2b8a3e">Retrospective</text>
+    <text x="590" y="125" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2b8a3e">ปรับปรุงกระบวนการ</text>
+    
+    <!-- Arrows in Sprint -->
+    <path d="M 150 105 L 165 105" stroke="#2f9e44" stroke-width="2" marker-end="url(#arrowBlue)"/>
+    <path d="M 265 110 L 280 110" stroke="#2f9e44" stroke-width="2" marker-end="url(#arrowBlue)"/>
+    <path d="M 400 115 L 415 115" stroke="#2f9e44" stroke-width="2" marker-end="url(#arrowBlue)"/>
+    <path d="M 515 105 L 530 105" stroke="#2f9e44" stroke-width="2" marker-end="url(#arrowBlue)"/>
+    
+    <!-- Loop back -->
+    <path d="M 590 140 Q 340 220 90 140" stroke="#2f9e44" stroke-width="2" stroke-dasharray="4,2" marker-end="url(#arrowBlue)"/>
+    <text x="340" y="210" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2b8a3e">
+      ↻ วนซ้ำ Sprint ใหม่
+    </text>
+  </g>
+
+  <!-- 3 Artifacts Detail -->
+  <g transform="translate(680, 610)">
+    <rect x="0" y="0" width="680" height="180" rx="10" fill="#ffe8cc" stroke="#fd7e14" stroke-width="3"/>
+    <text x="340" y="25" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#d9480f">
+      📦 3 Artifacts (ผลลัพธ์)
+    </text>
+    
+    <!-- Product Backlog -->
+    <rect x="30" y="50" width="180" height="110" rx="8" fill="#fff5e6" stroke="#fd7e14" stroke-width="2"/>
+    <text x="120" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#d9480f">📋 Product Backlog</text>
+    <text x="120" y="95" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#d9480f">รายการงานทั้งหมด</text>
+    <text x="120" y="112" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#d9480f">จัดลำดับความสำคัญ</text>
+    <text x="120" y="129" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#d9480f">โดย Product Owner</text>
+    <text x="120" y="150" font-family="Arial, sans-serif" font-size="9" font-style="italic" text-anchor="middle" fill="#495057">Baseline requirements</text>
+    
+    <!-- Sprint Backlog -->
+    <rect x="250" y="50" width="180" height="110" rx="8" fill="#fff5e6" stroke="#fd7e14" stroke-width="2"/>
+    <text x="340" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#d9480f">📝 Sprint Backlog</text>
+    <text x="340" y="95" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#d9480f">งานใน Sprint นี้</text>
+    <text x="340" y="112" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#d9480f">ที่ทีมเลือกทำ</text>
+    <text x="340" y="129" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#d9480f">จาก Product Backlog</text>
+    <text x="340" y="150" font-family="Arial, sans-serif" font-size="9" font-style="italic" text-anchor="middle" fill="#495057">Subset for Sprint</text>
+    
+    <!-- Product Increment -->
+    <rect x="470" y="50" width="180" height="110" rx="8" fill="#fff5e6" stroke="#fd7e14" stroke-width="2"/>
+    <text x="560" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#d9480f">✅ Product Increment</text>
+    <text x="560" y="95" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#d9480f">ผลงานที่สร้างเสร็จ</text>
+    <text x="560" y="112" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#d9480f">ปล่อยใช้งานได้</text>
+    <text x="560" y="129" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#d9480f">ทุก Sprint</text>
+    <text x="560" y="150" font-family="Arial, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#e8590c">⭐ Most Important!</text>
+    
+    <!-- Flow arrows between artifacts -->
+    <path d="M 210 105 L 250 105" stroke="#fd7e14" stroke-width="2" marker-end="url(#arrowBlue)"/>
+    <path d="M 430 105 L 470 105" stroke="#fd7e14" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  </g>
+
+  <!-- Workflow Section -->
+  <g transform="translate(50, 830)">
+    <text x="300" y="0" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#212529">
+      🔄 Scrum Workflow
+    </text>
+    
+    <rect x="0" y="15" width="600" height="140" rx="10" fill="#f8f9fa" stroke="#868e96" stroke-width="2"/>
+    
+    <text x="20" y="40" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#212529">
+      1. Sprint Planning
+    </text>
+    <text x="30" y="58" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#495057">
+      → PO + Dev Team จัดลำดับ Product Backlog
+    </text>
+    <text x="30" y="73" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#495057">
+      → สร้าง Sprint Backlog
+    </text>
+    
+    <text x="20" y="95" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#212529">
+      2. Daily Standup
+    </text>
+    <text x="30" y="113" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#495057">
+      → Dev Team ประชุมทุกวัน ติดตามความคืบหน้า
+    </text>
+    <text x="30" y="128" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#495057">
+      → Scrum Master ช่วยลบอุปสรรค
+    </text>
+    
+    <text x="320" y="40" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#212529">
+      3. Sprint Review
+    </text>
+    <text x="330" y="58" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#495057">
+      → Dev Team แสดง Product Increment
+    </text>
+    <text x="330" y="73" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#495057">
+      → รับ Feedback จาก Stakeholders
+    </text>
+    
+    <text x="320" y="95" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#212529">
+      4. Sprint Retrospective
+    </text>
+    <text x="330" y="113" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#495057">
+      → ทีมทบทวนกระบวนการภายใน
+    </text>
+    <text x="330" y="128" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#495057">
+      → หาจุดปรับปรุงอย่างต่อเนื่อง
+    </text>
+  </g>
+
+  <!-- Benefits Section -->
+  <g transform="translate(700, 830)">
+    <text x="300" y="0" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#212529">
+      ✨ ประโยชน์ของ Scrum
+    </text>
+    
+    <rect x="0" y="15" width="600" height="140" rx="10" fill="#e7f5ff" stroke="#1971c2" stroke-width="2"/>
+    
+    <text x="20" y="38" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#1864ab">
+      📈 เพิ่มประสิทธิภาพ - แบ่งงานเป็นชิ้นเล็ก จัดการง่าย
+    </text>
+    <text x="20" y="58" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#1864ab">
+      🤝 ปรับปรุงการทำงานร่วมกัน - ทีมและ stakeholders สื่อสารดีขึ้น
+    </text>
+    <text x="20" y="78" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#1864ab">
+      🎯 สร้างสิ่งที่ถูกต้อง - จัดลำดับตามคุณค่าของลูกค้า
+    </text>
+    <text x="20" y="98" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#1864ab">
+      🚀 ส่งมอบเร็วและบ่อย - ลดความเสี่ยง รับ feedback ทันที
+    </text>
+    <text x="20" y="118" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#1864ab">
+      🔄 ปรับตัวได้ - ไม่ติดกับแผนแข็ง รองรับการเปลี่ยนแปลง
+    </text>
+    <text x="20" y="140" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="start" fill="#1971c2">
+      💡 Scrum = Agile Framework ที่นิยมที่สุด!
+    </text>
+  </g>
+
+  <!-- Formula at bottom -->
+  <text x="700" y="1010" font-family="monospace" font-size="16" font-weight="bold" text-anchor="middle" fill="#495057">
+    Scrum = Increment(Artifacts(Events(Roles(Agile))))
+  </text>
+  
+  <text x="700" y="1035" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#868e96">
+    เริ่มจาก Agile → กำหนดบทบาท → ทำกิจกรรม → สร้างผลลัพธ์ → ได้ Increment
+  </text>
+
+  <!-- Legend -->
+  <rect x="50" y="1050" width="280" height="35" rx="5" fill="#fff5f5" stroke="#fa5252" stroke-width="2"/>
+  <text x="185" y="1075" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#c92a2a">
+    🏉 3-5-3 = 3 Roles, 5 Events, 3 Artifacts
+  </text>
+  
+  <rect x="350" y="1050" width="350" height="35" rx="5" fill="#e7f5ff" stroke="#1971c2" stroke-width="2"/>
+  <text x="525" y="1075" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1864ab">
+    💡 Simplicity + Iterative + Customer Value
+  </text>
+</svg>

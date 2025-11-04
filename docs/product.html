@@ -1,0 +1,133 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define gradients for depth effect -->
+  <defs>
+    <radialGradient id="grad1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#c92a2a;stop-opacity:0.9" />
+    </radialGradient>
+    <radialGradient id="grad2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffd93d;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#f59f00;stop-opacity:0.9" />
+    </radialGradient>
+    <radialGradient id="grad3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#51cf66;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#2f9e44;stop-opacity:0.9" />
+    </radialGradient>
+    <radialGradient id="grad4" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#74c0fc;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#1971c2;stop-opacity:0.9" />
+    </radialGradient>
+    <radialGradient id="grad5" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#b197fc;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#7950f2;stop-opacity:0.9" />
+    </radialGradient>
+    <radialGradient id="gradCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffc9c9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff8787;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="800" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#212529">
+    Product Development: Onion Model
+  </text>
+  
+  <!-- Layer 5: AI (Outermost) -->
+  <circle cx="400" cy="420" r="330" fill="url(#grad1)" stroke="#c92a2a" stroke-width="3" opacity="0.85"/>
+  <text x="400" y="115" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#fff">
+    AI
+  </text>
+  <text x="400" y="143" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#fff">
+    Continuous Optimization
+  </text>
+  
+  <!-- Layer 4: Deploy -->
+  <circle cx="400" cy="420" r="270" fill="url(#grad2)" stroke="#f59f00" stroke-width="3" opacity="0.9"/>
+  <text x="400" y="175" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#212529">
+    Deploy
+  </text>
+  <text x="400" y="200" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="#212529">
+    Production Release
+  </text>
+  
+  <!-- Layer 3: Build -->
+  <circle cx="400" cy="420" r="215" fill="url(#grad3)" stroke="#2f9e44" stroke-width="3" opacity="0.9"/>
+  <text x="400" y="230" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#fff">
+    Build
+  </text>
+  <text x="400" y="255" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="#fff">
+    Development
+  </text>
+  
+  <!-- Layer 2: Design -->
+  <circle cx="400" cy="420" r="160" fill="url(#grad4)" stroke="#1971c2" stroke-width="3" opacity="0.9"/>
+  <text x="400" y="285" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#fff">
+    Design
+  </text>
+  <text x="400" y="310" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="#fff">
+    Solution Architecture
+  </text>
+  
+  <!-- Layer 1: Human -->
+  <circle cx="400" cy="420" r="100" fill="url(#grad5)" stroke="#7950f2" stroke-width="3" opacity="0.95"/>
+  <text x="400" y="345" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#fff">
+    Human
+  </text>
+  <text x="400" y="368" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#fff">
+    Understanding
+  </text>
+  
+  <!-- Core: Domain + AI (split into two circles) -->
+  <circle cx="365" cy="445" r="30" fill="url(#gradCore)" stroke="#fa5252" stroke-width="2"/>
+  <text x="365" y="450" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#212529">
+    Domain
+  </text>
+  
+  <circle cx="435" cy="445" r="30" fill="#e7f5ff" stroke="#1971c2" stroke-width="2"/>
+  <text x="435" y="450" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1971c2">
+    AI
+  </text>
+  
+  <!-- Formula at bottom -->
+  <text x="400" y="770" font-family="monospace" font-size="18" text-anchor="middle" fill="#495057" font-weight="bold">
+    Product = AI(Deploy(Build(Design(Human(Domain, AI)))))
+  </text>
+  
+  <!-- Arrows showing flow -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#495057" />
+    </marker>
+  </defs>
+  
+  <!-- Arrow from center outward (right side) -->
+  <path d="M 435 420 L 710 420" stroke="#495057" stroke-width="2" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="5,5"/>
+  <text x="720" y="415" font-family="Arial, sans-serif" font-size="14" fill="#495057">
+    Inside → Out
+  </text>
+  <text x="720" y="432" font-family="Arial, sans-serif" font-size="12" fill="#868e96">
+    Layer by Layer
+  </text>
+  
+  <!-- Legend -->
+  <g transform="translate(50, 650)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#212529">
+      Process Flow:
+    </text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="13" fill="#495057">
+      1. Core: Domain Knowledge + AI Capability
+    </text>
+    <text x="0" y="45" font-family="Arial, sans-serif" font-size="13" fill="#495057">
+      2. Human: Understanding &amp; Requirements
+    </text>
+    <text x="0" y="65" font-family="Arial, sans-serif" font-size="13" fill="#495057">
+      3. Design → Build → Deploy → AI Optimization
+    </text>
+    <text x="0" y="85" font-family="Arial, sans-serif" font-size="13" fill="#495057">
+      4. Result: Complete Product
+    </text>
+  </g>
+</svg>

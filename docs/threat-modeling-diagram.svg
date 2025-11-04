@@ -1,0 +1,325 @@
+<svg viewBox="0 0 1400 1100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define gradients -->
+  <defs>
+    <radialGradient id="systemGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fff5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffc9c9;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="understandGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fff9db;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffe066;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="identifyGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#d0ebff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#74c0fc;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="mitigateGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#d0f4de;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#51cf66;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="secureGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#e7d5ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b197fc;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="1100" fill="#f8f9fa"/>
+  
+  <!-- Title Area with Background -->
+  <rect x="0" y="0" width="1400" height="100" fill="#fff" opacity="0.95"/>
+  
+  <!-- Title -->
+  <text x="700" y="45" font-family="Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#212529">
+    Threat Modeling Framework
+  </text>
+  <text x="700" y="75" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#495057">
+    🛡️ คิดอย่างแฮกเกอร์ • ป้องกันอย่างสถาปนิก • สร้างอย่างปลอดภัย
+  </text>
+
+  <!-- Layer 4: Mitigate -->
+  <circle cx="350" cy="300" r="245" fill="url(#mitigateGrad)" stroke="#2f9e44" stroke-width="3" opacity="0.8"/>
+  <text x="350" y="80" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2b8a3e">
+    Mitigate
+  </text>
+  <text x="350" y="103" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#2b8a3e">
+    ลดความเสี่ยง
+  </text>
+
+    <!-- Layer 3: Identify Threats -->
+  <circle cx="350" cy="300" r="190" fill="url(#identifyGrad)" stroke="#1971c2" stroke-width="3" opacity="0.85"/>
+  <text x="350" y="135" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1864ab">
+    Identify Threats
+  </text>
+  <text x="350" y="158" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#1864ab">
+    ระบุภัยคุกคาม
+  </text>
+
+  <!-- Layer 2: Understand -->
+  <circle cx="350" cy="300" r="130" fill="url(#understandGrad)" stroke="#fab005" stroke-width="3" opacity="0.9"/>
+  <text x="350" y="195" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#e67700">
+    Understand
+  </text>
+  <text x="350" y="218" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#e67700">
+    เข้าใจระบบ
+  </text>
+
+  <!-- Core: System/Application -->
+  <circle cx="350" cy="300" r="70" fill="url(#systemGrad)" stroke="#fa5252" stroke-width="3"/>
+  <text x="350" y="290" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#c92a2a">
+    System /
+  </text>
+  <text x="350" y="310" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#c92a2a">
+    Application
+  </text>
+  <text x="350" y="330" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#c92a2a">
+    ระบบที่จะป้องกัน
+  </text>
+
+
+  <!-- Definition box -->
+  <rect x="200" y="530" width="300" height="80" rx="10" fill="#fff5f5" stroke="#fa5252" stroke-width="3"/>
+  <text x="350" y="555" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#c92a2a">
+    💡 Threat Modeling คือ?
+  </text>
+  <text x="350" y="578" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#495057">
+    กระบวนการคิดว่าระบบจะโดนแฮก
+  </text>
+  <text x="350" y="595" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#495057">
+    ได้อย่างไร และจะป้องกันได้อย่างไร
+  </text>
+
+  <!-- Arrow pointing to details -->
+  <defs>
+    <marker id="arrowFlow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#495057" />
+    </marker>
+  </defs>
+  <path d="M 595 300 L 680 300" stroke="#495057" stroke-width="3" fill="none" marker-end="url(#arrowFlow)"/>
+  <text x="637" y="290" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#495057">
+    รายละเอียด
+  </text>
+
+  <!-- Details Section -->
+  <!-- Understand System -->
+  <g transform="translate(690, 120)">
+    <rect x="0" y="0" width="680" height="160" rx="10" fill="#fff9db" stroke="#fab005" stroke-width="3"/>
+    <text x="340" y="25" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#e67700">
+      🏗️ 1. Understand System (เข้าใจระบบ)
+    </text>
+    
+    <text x="20" y="55" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="start" fill="#e67700">
+      สิ่งที่ต้องเข้าใจ:
+    </text>
+    <text x="30" y="75" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#495057">
+      • สถาปัตยกรรมระบบ (System Architecture) - ถึงระดับ component
+    </text>
+    <text x="30" y="92" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#495057">
+      • ระบบทำงานอย่างไร (How it works) - ตามที่ออกแบบ vs ความจริง
+    </text>
+    <text x="30" y="109" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#495057">
+      • ระบบถูกใช้งานอย่างไร (How it's used) - Use cases จริง
+    </text>
+    <text x="30" y="126" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#495057">
+      • Data Flow - ข้อมูลไหลผ่านไหนบ้าง (Trusted ↔ Untrusted boundaries)
+    </text>
+    <text x="30" y="143" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#495057">
+      • Assets - สิ่งที่ต้องป้องกัน (ข้อมูล ระบบ บริการ)
+    </text>
+  </g>
+
+  <!-- Identify Threats -->
+  <g transform="translate(690, 300)">
+    <rect x="0" y="0" width="680" height="180" rx="10" fill="#d0ebff" stroke="#1971c2" stroke-width="3"/>
+    <text x="340" y="25" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#1864ab">
+      🔍 2. Identify Threats (ระบุภัยคุกคาม)
+    </text>
+    
+    <text x="20" y="55" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="start" fill="#1864ab">
+      วิธีระบุภัยคุกคาม:
+    </text>
+    <text x="30" y="75" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#495057">
+      • คิดเหมือนแฮกเกอร์ - ระบบจะโดนโจมตีได้อย่างไร?
+    </text>
+    <text x="30" y="92" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#495057">
+      • ดู Trust Boundaries - จุดที่ข้อมูลข้าม Trusted ↔ Untrusted
+    </text>
+    <text x="30" y="109" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#495057">
+      • ระบุ Threat Agents - ใครจะโจมตี? (Hackers, Insiders, Competitors)
+    </text>
+    <text x="30" y="126" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#495057">
+      • วิเคราะห์ Attack Vectors - วิธีโจมตีที่เป็นไปได้
+    </text>
+    <text x="30" y="143" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#495057">
+      • ให้คะแนนความรุนแรง (Severity Rating) - High, Medium, Low
+    </text>
+    <text x="30" y="163" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="start" fill="#1971c2">
+      💡 ใช้หลายคนคิดหลายมุม: Dev, Architect, Security, Designer, User
+    </text>
+  </g>
+
+  <!-- Mitigate -->
+  <g transform="translate(690, 500)">
+    <rect x="0" y="0" width="680" height="160" rx="10" fill="#d3f9d8" stroke="#2f9e44" stroke-width="3"/>
+    <text x="340" y="25" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#2b8a3e">
+      🛡️ 3. Mitigate (ลดความเสี่ยง)
+    </text>
+    
+    <text x="20" y="55" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="start" fill="#2b8a3e">
+      วิธีการลดความเสี่ยง:
+    </text>
+    <text x="30" y="75" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#495057">
+      • กำหนดมาตรการป้องกัน (Security Controls) - Authentication, Authorization, Encryption
+    </text>
+    <text x="30" y="92" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#495057">
+      • ปรับแต่ง Design ให้ปลอดภัย - Secure by Design
+    </text>
+    <text x="30" y="109" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#495057">
+      • ตัดสินใจอย่างมีเหตุผล (Rational Decisions) - Accept, Mitigate, or Transfer risk
+    </text>
+    <text x="30" y="126" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#495057">
+      • จัดลำดับความสำคัญ - แก้ High severity ก่อน
+    </text>
+    <text x="30" y="146" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="start" fill="#2f9e44">
+      ⏰ ทำก่อน Coding = ถูกกว่า ทำหลัง Release = แพงมาก!
+    </text>
+  </g>
+
+  <!-- Benefits Section -->
+  <g transform="translate(50, 675)">
+    <text x="650" y="10" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#212529">
+      ✨ ประโยชน์ของ Threat Modeling
+    </text>
+    
+    <rect x="0" y="20" width="420" height="170" rx="10" fill="#e7f5ff" stroke="#1971c2" stroke-width="3"/>
+    <text x="210" y="45" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#1864ab">
+      🎯 ระดับระบบ
+    </text>
+    <text x="20" y="70" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#495057">
+      ✅ ระบบปลอดภัยกว่า
+    </text>
+    <text x="30" y="88" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#495057">
+      • Secure by Design ตั้งแต่เริ่มต้น
+    </text>
+    <text x="30" y="103" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#495057">
+      • ลดโอกาสเจอช่องโหว่
+    </text>
+    
+    <text x="20" y="125" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#495057">
+      ✅ ประหยัดต้นทุน
+    </text>
+    <text x="30" y="143" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#495057">
+      • พบปัญหาตอน Design = ถูก
+    </text>
+    <text x="30" y="158" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#495057">
+      • พบปัญหาหลัง Release = แพงมาก
+    </text>
+    <text x="30" y="173" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#495057">
+      • ความเสียหายต่อแบรนด์ = ประเมินค่าไม่ได้
+    </text>
+    
+    <rect x="450" y="20" width="420" height="170" rx="10" fill="#d3f9d8" stroke="#2f9e44" stroke-width="3"/>
+    <text x="660" y="45" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2b8a3e">
+      🔍 ระดับกระบวนการ
+    </text>
+    <text x="470" y="70" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#495057">
+      ✅ พบปัญหาที่วิธีอื่นหาไม่เจอ
+    </text>
+    <text x="480" y="88" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#495057">
+      • Code review อาจมองไม่เห็น
+    </text>
+    <text x="480" y="103" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#495057">
+      • Test อาจไม่ครอบคลุม
+    </text>
+    
+    <text x="470" y="125" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#495057">
+      ✅ เพิ่มความมั่นใจ
+    </text>
+    <text x="480" y="143" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#495057">
+      • ทีมและผู้ใช้มั่นใจในความปลอดภัย
+    </text>
+    <text x="480" y="158" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#495057">
+      • มองเห็นภัยคุกคามชัดเจน
+    </text>
+    <text x="480" y="173" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#495057">
+      • ตัดสินใจได้อย่างมีข้อมูล
+    </text>
+    
+    <rect x="900" y="20" width="420" height="170" rx="10" fill="#fff3e0" stroke="#fd7e14" stroke-width="3"/>
+    <text x="1110" y="45" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#d9480f">
+      👥 ระดับทีม
+    </text>
+    <text x="920" y="70" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#495057">
+      ✅ ทำงานร่วมกันดีขึ้น
+    </text>
+    <text x="930" y="88" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#495057">
+      • หลายบทบาทคิดร่วมกัน
+    </text>
+    <text x="930" y="103" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#495057">
+      • เข้าใจระบบชัดเจนขึ้น
+    </text>
+    
+    <text x="920" y="125" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#495057">
+      ✅ Target Testing ได้ดี
+    </text>
+    <text x="930" y="143" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#495057">
+      • รู้ว่าต้อง test อะไร
+    </text>
+    <text x="930" y="158" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#495057">
+      • Penetration testing มีเป้าหมาย
+    </text>
+    <text x="930" y="173" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#495057">
+      • Code review เน้นจุดที่เสี่ยง
+    </text>
+  </g>
+
+  <!-- Important Notes -->
+  <g transform="translate(50, 880)">
+    <text x="650" y="10" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#212529">
+      ⚠️ ข้อควรรู้
+    </text>
+    
+    <rect x="0" y="20" width="640" height="110" rx="10" fill="#fff5f5" stroke="#fa5252" stroke-width="3"/>
+    <text x="320" y="45" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#c92a2a">
+      🔧 Threat Modeling = Process ไม่ใช่ Tool
+    </text>
+    <text x="20" y="70" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#495057">
+      • Tools ช่วยได้ (visualization, tracking) แต่ไม่สามารถแทนคนได้
+    </text>
+    <text x="20" y="88" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#495057">
+      • ต้องใช้มนุษย์คิดว่ามนุษย์จะโจมตีอย่างไร
+    </text>
+    <text x="20" y="106" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#495057">
+      • ยิ่งหลายคนคิดหลายมุม ยิ่งดี (Dev, Security, Designer, User)
+    </text>
+    
+    <rect x="660" y="20" width="640" height="110" rx="10" fill="#e7f5ff" stroke="#1971c2" stroke-width="3"/>
+    <text x="980" y="45" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#1864ab">
+      📦 Scope: One or Many?
+    </text>
+    <text x="680" y="70" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#495057">
+      • ระบบใหญ่ = แบ่งเป็น Threat Models หลายๆ อัน (by feature/component)
+    </text>
+    <text x="680" y="88" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#495057">
+      • ข้อดี: รายละเอียดมากขึ้น, ติดตามง่าย, ปัญหาไม่บล็อกทั้งระบบ
+    </text>
+    <text x="680" y="106" font-family="Arial, sans-serif" font-size="11" text-anchor="start" fill="#495057">
+      • เหมาะกับ Agile teams - ทำทีละ feature
+    </text>
+  </g>
+
+  <!-- Formula at bottom -->
+  <text x="700" y="1035" font-family="monospace" font-size="16" font-weight="bold" text-anchor="middle" fill="#495057">
+    SecureSystem = Mitigate(Identify(Understand(System)))
+  </text>
+  
+  <text x="700" y="1060" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#868e96">
+    เริ่มจากเข้าใจระบบ → ระบุภัยคุกคาม → ลดความเสี่ยง → ระบบปลอดภัย
+  </text>
+
+  <!-- Legend -->
+  <rect x="50" y="1075" width="420" height="20" rx="3" fill="#fff5f5" stroke="#fa5252" stroke-width="2"/>
+  <text x="260" y="1090" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#c92a2a">
+    🛡️ Think like a hacker • Design like an architect • Build securely
+  </text>
+</svg>
